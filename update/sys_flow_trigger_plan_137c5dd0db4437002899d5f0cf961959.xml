@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_flow_trigger_plan">
+    <sys_flow_trigger_plan action="INSERT_OR_UPDATE">
+        <binding_strategy>com.snc.process_flow.engine.binding.OncePerRecord</binding_strategy>
+        <plan>{"persistor":{"@class":".ChunkingPlanPersistor","table":"sys_flow_trigger_plan","id":"137c5dd0db4437002899d5f0cf961959","name":"plan"}}</plan>
+        <plan_id>be3bd110db4437002899d5f0cf96199b</plan_id>
+        <snapshot>f60d9514db4437002899d5f0cf96196e</snapshot>
+        <sys_class_name>sys_flow_trigger_plan</sys_class_name>
+        <sys_created_by>marek.admin</sys_created_by>
+        <sys_created_on>2019-03-03 16:09:52</sys_created_on>
+        <sys_id>137c5dd0db4437002899d5f0cf961959</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>537c5dd0db4437002899d5f0cf961957</sys_name>
+        <sys_package display_value="Vector" source="x_84446_vector">5fe89588db88f3002899d5f0cf961957</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Vector">5fe89588db88f3002899d5f0cf961957</sys_scope>
+        <sys_update_name>sys_flow_trigger_plan_137c5dd0db4437002899d5f0cf961959</sys_update_name>
+        <sys_updated_by>marek.admin</sys_updated_by>
+        <sys_updated_on>2019-03-03 16:09:52</sys_updated_on>
+        <trigger display_value="">537c5dd0db4437002899d5f0cf961957</trigger>
+    </sys_flow_trigger_plan>
+</record_update>

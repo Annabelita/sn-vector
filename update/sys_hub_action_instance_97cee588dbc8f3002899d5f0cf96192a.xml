@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_hub_action_instance">
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Alarm">5d0e6148dbc8f3002899d5f0cf96199a</action_type>
+        <action_type_parent display_value="Alarm">0ec229c8db88f3002899d5f0cf961942</action_type_parent>
+        <comment/>
+        <compiled_snapshot display_value="Alarm">5d0e6148dbc8f3002899d5f0cf96199a</compiled_snapshot>
+        <display_text/>
+        <flow display_value="New P1 Incident">d3cea588dbc8f3002899d5f0cf9619fd</flow>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>marek.admin</sys_created_by>
+        <sys_created_on>2019-03-02 22:51:24</sys_created_on>
+        <sys_id>97cee588dbc8f3002899d5f0cf96192a</sys_id>
+        <sys_mod_count>14</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Vector" source="x_84446_vector">5fe89588db88f3002899d5f0cf961957</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Vector">5fe89588db88f3002899d5f0cf961957</sys_scope>
+        <sys_update_name>sys_hub_action_instance_97cee588dbc8f3002899d5f0cf96192a</sys_update_name>
+        <sys_updated_by>marek.admin</sys_updated_by>
+        <sys_updated_on>2019-03-03 15:19:21</sys_updated_on>
+        <ui_id>ae7c2b01-2b7b-464a-8469-0a2a7340db98</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=97cee588dbc8f3002899d5f0cf96192a"/>
+    <sys_element_mapping action="delete_multiple" query="id=97cee588dbc8f3002899d5f0cf96192a"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>description</field>
+        <id>97cee588dbc8f3002899d5f0cf96192a</id>
+        <sys_created_by>marek.admin</sys_created_by>
+        <sys_created_on>2019-03-03 15:19:21</sys_created_on>
+        <sys_id>dfe0d1d4db0437002899d5f0cf961982</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>marek.admin</sys_updated_by>
+        <sys_updated_on>2019-03-03 15:19:21</sys_updated_on>
+        <table>var__m_sys_hub_action_input_5d0e6148dbc8f3002899d5f0cf96199a</table>
+        <value>{{Created_1.current.short_description}}</value>
+    </sys_element_mapping>
+</record_update>

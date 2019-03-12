@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="description" label="text" language="en" table="var__m_sys_hub_action_input_b49b11d0db4437002899d5f0cf96195f">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>description</element>
+            <help/>
+            <hint/>
+            <label>text</label>
+            <language>en</language>
+            <name>var__m_sys_hub_action_input_b49b11d0db4437002899d5f0cf96195f</name>
+            <plural/>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>marek.admin</sys_created_by>
+            <sys_created_on>2019-03-03 16:05:53</sys_created_on>
+            <sys_id>349b11d0db4437002899d5f0cf961968</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_name>text</sys_name>
+            <sys_package display_value="Vector" source="x_84446_vector">5fe89588db88f3002899d5f0cf961957</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Vector">5fe89588db88f3002899d5f0cf961957</sys_scope>
+            <sys_update_name>sys_documentation_var__m_sys_hub_action_input_b49b11d0db4437002899d5f0cf96195f_description_en</sys_update_name>
+            <sys_updated_by>marek.admin</sys_updated_by>
+            <sys_updated_on>2019-03-03 16:07:43</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

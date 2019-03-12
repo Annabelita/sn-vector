@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_hub_action_type_definition">
+    <sys_hub_action_type_definition action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <active>true</active>
+        <annotation/>
+        <category display_value="Vector Python Script">c001714cdbc8f3002899d5f0cf9619bb</category>
+        <copied_from>0ec229c8db88f3002899d5f0cf961942</copied_from>
+        <copied_from_name>Alarm</copied_from_name>
+        <description/>
+        <internal_name>say_text</internal_name>
+        <label_cache>[{"name":"{{action.description}}","label":"action➛text","type":"action","ref":""}]</label_cache>
+        <latest_snapshot>51fc5514db4437002899d5f0cf961905</latest_snapshot>
+        <master_snapshot>2a2c19d0db4437002899d5f0cf9619d3</master_snapshot>
+        <name>Say text</name>
+        <outputs/>
+        <state>published</state>
+        <sys_class_name>sys_hub_action_type_definition</sys_class_name>
+        <sys_created_by>marek.admin</sys_created_by>
+        <sys_created_on>2019-03-03 16:05:52</sys_created_on>
+        <sys_id>b49b11d0db4437002899d5f0cf96195f</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name>Say text</sys_name>
+        <sys_package display_value="Vector" source="x_84446_vector">5fe89588db88f3002899d5f0cf961957</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Vector">5fe89588db88f3002899d5f0cf961957</sys_scope>
+        <sys_update_name>sys_hub_action_type_definition_b49b11d0db4437002899d5f0cf96195f</sys_update_name>
+        <sys_updated_by>marek.admin</sys_updated_by>
+        <sys_updated_on>2019-03-03 16:11:56</sys_updated_on>
+        <system_level>false</system_level>
+        <type/>
+    </sys_hub_action_type_definition>
+    <sys_translated_text action="delete_multiple" query="documentkey=b49b11d0db4437002899d5f0cf96195f"/>
+    <sys_variable_value action="delete_multiple" query="document_key=b49b11d0db4437002899d5f0cf96195f"/>
+</record_update>

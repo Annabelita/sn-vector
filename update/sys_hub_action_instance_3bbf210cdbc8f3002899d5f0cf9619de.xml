@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_hub_action_instance">
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Add Worknote">4d7227a473210300e4fd234ffff6a712</action_type>
+        <action_type_parent/>
+        <comment/>
+        <compiled_snapshot display_value="Add Worknote">4d7227a473210300e4fd234ffff6a712</compiled_snapshot>
+        <display_text/>
+        <flow display_value="New P1 Incident">0d29d5c8db88f3002899d5f0cf961910</flow>
+        <order>2</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>marek.admin</sys_created_by>
+        <sys_created_on>2019-03-02 22:55:31</sys_created_on>
+        <sys_id>3bbf210cdbc8f3002899d5f0cf9619de</sys_id>
+        <sys_mod_count>14</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Vector" source="x_84446_vector">5fe89588db88f3002899d5f0cf961957</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Vector">5fe89588db88f3002899d5f0cf961957</sys_scope>
+        <sys_update_name>sys_hub_action_instance_3bbf210cdbc8f3002899d5f0cf9619de</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2019-03-03 15:20:37</sys_updated_on>
+        <ui_id>8783dfbd-5953-417d-b5a8-b9f79dcdd310</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=3bbf210cdbc8f3002899d5f0cf9619de"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>3bbf210cdbc8f3002899d5f0cf9619de</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>marek.admin</sys_created_by>
+        <sys_created_on>2019-03-02 22:55:31</sys_created_on>
+        <sys_id>77bf210cdbc8f3002899d5f0cf9619e4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>marek.admin</sys_updated_by>
+        <sys_updated_on>2019-03-02 22:55:31</sys_updated_on>
+        <value>Vector alerted about this incident</value>
+        <variable display_value="">d92981a487110300123eaf8e36cb0bb0</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>3bbf210cdbc8f3002899d5f0cf9619de</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>marek.admin</sys_created_by>
+        <sys_created_on>2019-03-02 22:55:34</sys_created_on>
+        <sys_id>e0cf610cdbc8f3002899d5f0cf961928</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>marek.admin</sys_updated_by>
+        <sys_updated_on>2019-03-02 22:55:34</sys_updated_on>
+        <value>Vector alerted about this incident</value>
+        <variable display_value="">157227a473210300e4fd234ffff6a722</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=3bbf210cdbc8f3002899d5f0cf9619de"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ah_task</field>
+        <id>3bbf210cdbc8f3002899d5f0cf9619de</id>
+        <sys_created_by>marek.admin</sys_created_by>
+        <sys_created_on>2019-03-02 22:55:31</sys_created_on>
+        <sys_id>33bf210cdbc8f3002899d5f0cf9619e4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>marek.admin</sys_updated_by>
+        <sys_updated_on>2019-03-02 22:55:31</sys_updated_on>
+        <table>var__m_sys_hub_action_input_cdc8896487110300123eaf8e36cb0b24</table>
+        <value>{{Created_1.current}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ah_task</field>
+        <id>3bbf210cdbc8f3002899d5f0cf9619de</id>
+        <sys_created_by>marek.admin</sys_created_by>
+        <sys_created_on>2019-03-02 22:55:34</sys_created_on>
+        <sys_id>accf610cdbc8f3002899d5f0cf961927</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>marek.admin</sys_updated_by>
+        <sys_updated_on>2019-03-02 22:55:34</sys_updated_on>
+        <table>var__m_sys_hub_action_input_4d7227a473210300e4fd234ffff6a712</table>
+        <value>{{Created_1.current}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ah_work_note</field>
+        <id>3bbf210cdbc8f3002899d5f0cf9619de</id>
+        <sys_created_by>marek.admin</sys_created_by>
+        <sys_created_on>2019-03-02 22:55:34</sys_created_on>
+        <sys_id>60cf610cdbc8f3002899d5f0cf961928</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>marek.admin</sys_updated_by>
+        <sys_updated_on>2019-03-02 22:55:34</sys_updated_on>
+        <table>var__m_sys_hub_action_input_4d7227a473210300e4fd234ffff6a712</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ah_work_note</field>
+        <id>3bbf210cdbc8f3002899d5f0cf9619de</id>
+        <sys_created_by>marek.admin</sys_created_by>
+        <sys_created_on>2019-03-02 22:55:31</sys_created_on>
+        <sys_id>f3bf210cdbc8f3002899d5f0cf9619e4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>marek.admin</sys_updated_by>
+        <sys_updated_on>2019-03-02 22:55:31</sys_updated_on>
+        <table>var__m_sys_hub_action_input_cdc8896487110300123eaf8e36cb0b24</table>
+        <value/>
+    </sys_element_mapping>
+</record_update>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_view">
+    <sys_ui_view action="INSERT_OR_UPDATE">
+        <group/>
+        <hidden>false</hidden>
+        <name>Connect</name>
+        <roles/>
+        <sys_class_name>sys_ui_view</sys_class_name>
+        <sys_created_by>marek.admin</sys_created_by>
+        <sys_created_on>2019-03-02 22:54:05</sys_created_on>
+        <sys_id>726f61c8dbc8f3002899d5f0cf961937</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Connect</sys_name>
+        <sys_package display_value="Vector" source="x_84446_vector">5fe89588db88f3002899d5f0cf961957</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Vector">5fe89588db88f3002899d5f0cf961957</sys_scope>
+        <sys_update_name>sys_ui_view_726f61c8dbc8f3002899d5f0cf961937</sys_update_name>
+        <sys_updated_by>marek.admin</sys_updated_by>
+        <sys_updated_on>2019-03-02 22:54:05</sys_updated_on>
+        <title>Connect</title>
+        <user/>
+    </sys_ui_view>
+</record_update>

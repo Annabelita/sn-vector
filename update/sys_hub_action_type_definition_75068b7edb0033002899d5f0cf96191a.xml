@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_hub_action_type_definition">
+    <sys_hub_action_type_definition action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <active>true</active>
+        <annotation/>
+        <category display_value="Vector Python Script">c001714cdbc8f3002899d5f0cf9619bb</category>
+        <copied_from>0a337d8cdbc8f3002899d5f0cf9619ca</copied_from>
+        <copied_from_name>Sleep Reminder</copied_from_name>
+        <description/>
+        <internal_name>bike_reminder</internal_name>
+        <label_cache>[]</label_cache>
+        <latest_snapshot>d516cb7edb0033002899d5f0cf96198d</latest_snapshot>
+        <master_snapshot>90168b7edb0033002899d5f0cf9619f5</master_snapshot>
+        <name>Bike Reminder</name>
+        <outputs/>
+        <state>published</state>
+        <sys_class_name>sys_hub_action_type_definition</sys_class_name>
+        <sys_created_by>marek.admin</sys_created_by>
+        <sys_created_on>2019-03-11 18:15:47</sys_created_on>
+        <sys_id>75068b7edb0033002899d5f0cf96191a</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>Bike Reminder</sys_name>
+        <sys_package display_value="Vector" source="x_84446_vector">5fe89588db88f3002899d5f0cf961957</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Vector">5fe89588db88f3002899d5f0cf961957</sys_scope>
+        <sys_update_name>sys_hub_action_type_definition_75068b7edb0033002899d5f0cf96191a</sys_update_name>
+        <sys_updated_by>marek.admin</sys_updated_by>
+        <sys_updated_on>2019-03-11 18:16:03</sys_updated_on>
+        <system_level>false</system_level>
+        <type/>
+    </sys_hub_action_type_definition>
+    <sys_translated_text action="delete_multiple" query="documentkey=75068b7edb0033002899d5f0cf96191a"/>
+    <sys_variable_value action="delete_multiple" query="document_key=75068b7edb0033002899d5f0cf96191a"/>
+</record_update>

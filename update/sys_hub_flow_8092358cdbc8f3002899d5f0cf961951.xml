@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_hub_flow">
+    <sys_hub_flow action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <active>true</active>
+        <annotation/>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description/>
+        <internal_name>sleep_reminder</internal_name>
+        <label_cache>[]</label_cache>
+        <latest_snapshot>45278087dbc033002899d5f0cf961945</latest_snapshot>
+        <master_snapshot>926331ccdbc8f3002899d5f0cf961995</master_snapshot>
+        <name>Sleep time reminder</name>
+        <outputs/>
+        <remote_trigger_id>266331ccdbc8f3002899d5f0cf9619d2</remote_trigger_id>
+        <sc_callable>false</sc_callable>
+        <show_draft_actions>false</show_draft_actions>
+        <show_triggered_flows>false</show_triggered_flows>
+        <status>published</status>
+        <sys_class_name>sys_hub_flow</sys_class_name>
+        <sys_created_by>marek.admin</sys_created_by>
+        <sys_created_on>2019-03-02 23:07:50</sys_created_on>
+        <sys_id>8092358cdbc8f3002899d5f0cf961951</sys_id>
+        <sys_mod_count>7</sys_mod_count>
+        <sys_name>Sleep time reminder</sys_name>
+        <sys_package display_value="Vector" source="x_84446_vector">5fe89588db88f3002899d5f0cf961957</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Vector">5fe89588db88f3002899d5f0cf961957</sys_scope>
+        <sys_update_name>sys_hub_flow_8092358cdbc8f3002899d5f0cf961951</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2019-03-11 23:00:17</sys_updated_on>
+        <type>flow</type>
+    </sys_hub_flow>
+    <sys_translated_text action="delete_multiple" query="documentkey=8092358cdbc8f3002899d5f0cf961951"/>
+    <sys_variable_value action="delete_multiple" query="document_key=8092358cdbc8f3002899d5f0cf961951"/>
+</record_update>

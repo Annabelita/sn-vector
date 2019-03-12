@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_hub_flow">
+    <sys_hub_flow action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <active>false</active>
+        <annotation/>
+        <category/>
+        <copied_from>8092358cdbc8f3002899d5f0cf961951</copied_from>
+        <copied_from_name>Sleep time reminder</copied_from_name>
+        <description/>
+        <internal_name>bike_time_reminder</internal_name>
+        <label_cache>[]</label_cache>
+        <latest_snapshot/>
+        <master_snapshot/>
+        <name>Bike time reminder</name>
+        <outputs/>
+        <remote_trigger_id/>
+        <sc_callable>false</sc_callable>
+        <show_draft_actions>false</show_draft_actions>
+        <show_triggered_flows>false</show_triggered_flows>
+        <status>draft</status>
+        <sys_class_name>sys_hub_flow</sys_class_name>
+        <sys_created_by>marek.admin</sys_created_by>
+        <sys_created_on>2019-03-11 18:15:13</sys_created_on>
+        <sys_id>29e50b7edb0033002899d5f0cf961910</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Bike time reminder</sys_name>
+        <sys_package display_value="Vector" source="x_84446_vector">5fe89588db88f3002899d5f0cf961957</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Vector">5fe89588db88f3002899d5f0cf961957</sys_scope>
+        <sys_update_name>sys_hub_flow_29e50b7edb0033002899d5f0cf961910</sys_update_name>
+        <sys_updated_by>marek.admin</sys_updated_by>
+        <sys_updated_on>2019-03-11 18:15:13</sys_updated_on>
+        <type>flow</type>
+    </sys_hub_flow>
+    <sys_translated_text action="delete_multiple" query="documentkey=29e50b7edb0033002899d5f0cf961910"/>
+    <sys_variable_value action="delete_multiple" query="document_key=29e50b7edb0033002899d5f0cf961910"/>
+</record_update>

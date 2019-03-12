@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_application">
+    <sys_ui_application action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <hint/>
+        <name>Vector Action</name>
+        <order/>
+        <roles>x_84446_vector.vector_action_user</roles>
+        <sys_class_name>sys_ui_application</sys_class_name>
+        <sys_created_by>marek.admin</sys_created_by>
+        <sys_created_on>2019-03-03 15:24:27</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>42129958db0437002899d5f0cf96196c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Vector Action</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Vector" source="x_84446_vector">5fe89588db88f3002899d5f0cf961957</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Vector">5fe89588db88f3002899d5f0cf961957</sys_scope>
+        <sys_update_name>sys_ui_application_42129958db0437002899d5f0cf96196c</sys_update_name>
+        <sys_updated_by>marek.admin</sys_updated_by>
+        <sys_updated_on>2019-03-03 15:24:27</sys_updated_on>
+    </sys_ui_application>
+</record_update>

@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ws_operation">
+    <sys_ws_operation action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <consumes>application/json,application/xml,text/xml</consumes>
+        <consumes_customized>false</consumes_customized>
+        <default_operation_uri/>
+        <enforce_acl>cf9d01d3e73003009d6247e603f6a990</enforce_acl>
+        <http_method>POST</http_method>
+        <name>post</name>
+        <operation_script><![CDATA[(function process(/*RESTAPIRequest*/ request, /*RESTAPIResponse*/ response) {
+
+	var data = request.body.data.queryResult;
+	gs.info(data.intent.displayName);
+	
+	if(data.intent.displayName=='sing'){
+		
+		var singGR = new GlideRecord('x_84446_vector_action');
+		
+		singGR.initialize(); 
+		singGR.action_type = 'sing';
+		singGR.insert();
+	}
+	
+	if(data.intent.displayName=='dance'){
+
+		var danceGR = new GlideRecord('x_84446_vector_action');
+
+		danceGR.initialize(); 
+		danceGR.action_type = 'dance';
+		danceGR.insert();
+		
+	}
+	
+	if(data.intent.displayName !='sing' && data.intent.displayName !='dance'){
+		
+		var queryText = JSON.stringify(request.body.data.queryResult.queryText);
+		var responseText = JSON.stringify(request.body.data.queryResult.fulfillmentText);
+
+		var readMsg = queryText + '. ' + responseText;
+		readMsg = readMsg.replace(/\"/g, '');
+		gs.info(readMsg);
+
+		var sayGR = new GlideRecord('x_84446_vector_action');
+
+		sayGR.initialize(); 
+		sayGR.say_text = readMsg; 
+		sayGR.action_type = 'say';
+		sayGR.insert();
+	}
+
+var createRecord = function(type){
+	var gr = new GlideRecord('x_84446_vector_action');
+
+		gr.initialize(); 
+		gr.action_type = 'type';
+		gr.insert();
+};
+
+	// 	var writer = response.getStreamWriter(),
+	// 		hdrs = {};
+	// 	var x=request.body.data;
+	// 	var inc='';
+	// 	var priority='';
+	// 	var state='';
+	// 	var assigned_to='';
+	// 	var context='';
+	// 	var command='';
+	// 	var message='';
+	// 	var status='';
+	// 	var desc='';
+	// 	var caller='';
+	// 	var content='';
+	// 	var summary='';
+	// 	var comments='';
+	// 	data={};
+
+	// 	if(x.queryResult.intent.displayName=='state_test')
+	// 	{
+	// 		var numbers=x.queryResult.parameters.number + "";
+
+	// 			message="Elo";
+	// 			context='success';
+
+	// 	}
+
+	// 	var messages="Incident ";
+	// 	hdrs['Content-Type'] = 'application/json';
+	// 	response.setStatus(200);
+	// 	response.setHeaders(hdrs);
+	// 	var response_body = {
+	// 		"fulfillmentText": message,
+	// 		"payload":{
+	// 			"google": {
+	// 				"expectUserResponse": true,
+	// 				"richResponse": {
+	// 					"items": [
+	// 						{
+	// 							"simpleResponse": {
+	// 								"textToSpeech": message
+	// 							}
+	// 						}
+	// 					]
+	// 				}
+	// 			}
+	// 		}
+	// 	};
+	// 	writer.writeString(global.JSON.stringify(response_body));
+
+})(request, response);]]></operation_script>
+        <operation_uri>/api/x_84446_vector/dialogflow</operation_uri>
+        <produces>application/json,application/xml,text/xml</produces>
+        <produces_customized>false</produces_customized>
+        <relative_path>/</relative_path>
+        <request_example/>
+        <requires_acl_authorization>true</requires_acl_authorization>
+        <requires_authentication>true</requires_authentication>
+        <requires_snc_internal_role>true</requires_snc_internal_role>
+        <short_description/>
+        <sys_class_name>sys_ws_operation</sys_class_name>
+        <sys_created_by>marek.admin</sys_created_by>
+        <sys_created_on>2019-03-07 20:09:54</sys_created_on>
+        <sys_id>9fb9bea5db0033002899d5f0cf961931</sys_id>
+        <sys_mod_count>32</sys_mod_count>
+        <sys_name>post</sys_name>
+        <sys_package display_value="Vector" source="x_84446_vector">5fe89588db88f3002899d5f0cf961957</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Vector">5fe89588db88f3002899d5f0cf961957</sys_scope>
+        <sys_update_name>sys_ws_operation_9fb9bea5db0033002899d5f0cf961931</sys_update_name>
+        <sys_updated_by>marek.admin</sys_updated_by>
+        <sys_updated_on>2019-03-12 17:52:59</sys_updated_on>
+        <web_service_definition display_value="Dialogflow">b899b265db0033002899d5f0cf9619e8</web_service_definition>
+        <web_service_version/>
+    </sys_ws_operation>
+</record_update>

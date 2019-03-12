@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Vector Action" max_length="40" name="x_84446_vector_action" type="collection">
+        <element choice="3" default="say" label="Action Type" max_length="40" name="action_type" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Dance" value="dance"/>
+                <element inactive_on_update="false" label="Say" value="say"/>
+                <element inactive_on_update="false" label="Sing" value="sing"/>
+            </choice>
+        </element>
+        <element label="say text" max_length="4000" name="say_text" type="string"/>
+    </element>
+</database>

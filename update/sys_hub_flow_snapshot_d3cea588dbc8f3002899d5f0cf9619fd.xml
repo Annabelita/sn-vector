@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_hub_flow_snapshot">
+    <sys_hub_flow_snapshot action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <active>true</active>
+        <annotation/>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description/>
+        <internal_name>new_p1_incident</internal_name>
+        <label_cache>[]</label_cache>
+        <master>true</master>
+        <name>New P1 Incident</name>
+        <outputs/>
+        <parent_flow display_value="New P1 Incident">0d29d5c8db88f3002899d5f0cf961910</parent_flow>
+        <remote_trigger_id/>
+        <sc_callable>false</sc_callable>
+        <status>published</status>
+        <sys_class_name>sys_hub_flow_snapshot</sys_class_name>
+        <sys_created_by>marek.admin</sys_created_by>
+        <sys_created_on>2019-03-02 22:51:23</sys_created_on>
+        <sys_id>d3cea588dbc8f3002899d5f0cf9619fd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>New P1 Incident</sys_name>
+        <sys_package display_value="Vector" source="x_84446_vector">5fe89588db88f3002899d5f0cf961957</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Vector">5fe89588db88f3002899d5f0cf961957</sys_scope>
+        <sys_update_name>sys_hub_flow_snapshot_d3cea588dbc8f3002899d5f0cf9619fd</sys_update_name>
+        <sys_updated_by>marek.admin</sys_updated_by>
+        <sys_updated_on>2019-03-02 22:51:23</sys_updated_on>
+        <type>flow</type>
+    </sys_hub_flow_snapshot>
+    <sys_translated_text action="delete_multiple" query="documentkey=d3cea588dbc8f3002899d5f0cf9619fd"/>
+    <sys_variable_value action="delete_multiple" query="document_key=d3cea588dbc8f3002899d5f0cf9619fd"/>
+</record_update>

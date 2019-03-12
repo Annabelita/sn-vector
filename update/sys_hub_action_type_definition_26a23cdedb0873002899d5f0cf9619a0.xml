@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_hub_action_type_definition">
+    <sys_hub_action_type_definition action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <active>true</active>
+        <annotation/>
+        <category display_value="Vector Python Script">c001714cdbc8f3002899d5f0cf9619bb</category>
+        <copied_from>b49b11d0db4437002899d5f0cf96195f</copied_from>
+        <copied_from_name>Say text</copied_from_name>
+        <description/>
+        <internal_name>sing_&amp;_dance</internal_name>
+        <label_cache>[]</label_cache>
+        <latest_snapshot>d40ef6f6db0033002899d5f0cf961985</latest_snapshot>
+        <master_snapshot>41d2fcdedb0873002899d5f0cf961960</master_snapshot>
+        <name>Dance</name>
+        <outputs/>
+        <state>draft</state>
+        <sys_class_name>sys_hub_action_type_definition</sys_class_name>
+        <sys_created_by>marek.admin</sys_created_by>
+        <sys_created_on>2019-03-09 18:14:59</sys_created_on>
+        <sys_id>26a23cdedb0873002899d5f0cf9619a0</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name>Dance</sys_name>
+        <sys_package display_value="Vector" source="x_84446_vector">5fe89588db88f3002899d5f0cf961957</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Vector">5fe89588db88f3002899d5f0cf961957</sys_scope>
+        <sys_update_name>sys_hub_action_type_definition_26a23cdedb0873002899d5f0cf9619a0</sys_update_name>
+        <sys_updated_by>marek.admin</sys_updated_by>
+        <sys_updated_on>2019-03-11 17:42:18</sys_updated_on>
+        <system_level>false</system_level>
+        <type/>
+    </sys_hub_action_type_definition>
+    <sys_translated_text action="delete_multiple" query="documentkey=26a23cdedb0873002899d5f0cf9619a0"/>
+    <sys_variable_value action="delete_multiple" query="document_key=26a23cdedb0873002899d5f0cf9619a0"/>
+</record_update>

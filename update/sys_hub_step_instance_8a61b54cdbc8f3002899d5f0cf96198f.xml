@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_hub_step_instance">
+    <sys_hub_step_instance action="INSERT_OR_UPDATE">
+        <action display_value="Incident assigned">ea11b14cdbc8f3002899d5f0cf9619fc</action>
+        <cid>6f8523e9-e752-425a-9b10-85f21c858687</cid>
+        <extended_inputs/>
+        <extended_outputs/>
+        <icon/>
+        <inputs/>
+        <label>PowerShell step</label>
+        <order>1</order>
+        <outputs/>
+        <step_type display_value="PowerShell">486f577a3721030003a08fb77e41f1d6</step_type>
+        <sys_class_name>sys_hub_step_instance</sys_class_name>
+        <sys_created_by>marek.admin</sys_created_by>
+        <sys_created_on>2019-03-02 23:02:46</sys_created_on>
+        <sys_id>8a61b54cdbc8f3002899d5f0cf96198f</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>PowerShell step</sys_name>
+        <sys_package display_value="Vector" source="x_84446_vector">5fe89588db88f3002899d5f0cf961957</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Vector">5fe89588db88f3002899d5f0cf961957</sys_scope>
+        <sys_update_name>sys_hub_step_instance_8a61b54cdbc8f3002899d5f0cf96198f</sys_update_name>
+        <sys_updated_by>marek.admin</sys_updated_by>
+        <sys_updated_on>2019-03-02 23:02:47</sys_updated_on>
+    </sys_hub_step_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=8a61b54cdbc8f3002899d5f0cf96198f"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>8a61b54cdbc8f3002899d5f0cf96198f</document_key>
+        <order>50</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>marek.admin</sys_created_by>
+        <sys_created_on>2019-03-02 23:02:47</sys_created_on>
+        <sys_id>0661b54cdbc8f3002899d5f0cf9619ab</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>marek.admin</sys_updated_by>
+        <sys_updated_on>2019-03-02 23:02:47</sys_updated_on>
+        <value>192.168.0.234</value>
+        <variable display_value="">17b023ba3721030003a08fb77e41f15e</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>8a61b54cdbc8f3002899d5f0cf96198f</document_key>
+        <order>140</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>marek.admin</sys_created_by>
+        <sys_created_on>2019-03-02 23:02:47</sys_created_on>
+        <sys_id>0a61b54cdbc8f3002899d5f0cf9619aa</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>marek.admin</sys_updated_by>
+        <sys_updated_on>2019-03-02 23:02:47</sys_updated_on>
+        <value>cd V:\Development\Vector\Mine
+
+py inc_assigned.py</value>
+        <variable display_value="">c54323fa3721030003a08fb77e41f16e</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>8a61b54cdbc8f3002899d5f0cf96198f</document_key>
+        <order>70</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>marek.admin</sys_created_by>
+        <sys_created_on>2019-03-02 23:02:47</sys_created_on>
+        <sys_id>4261b54cdbc8f3002899d5f0cf9619ab</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>marek.admin</sys_updated_by>
+        <sys_updated_on>2019-03-02 23:02:47</sys_updated_on>
+        <value>135</value>
+        <variable display_value="">747127ba3721030003a08fb77e41f164</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>8a61b54cdbc8f3002899d5f0cf96198f</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>marek.admin</sys_created_by>
+        <sys_created_on>2019-03-02 23:02:47</sys_created_on>
+        <sys_id>4661b54cdbc8f3002899d5f0cf9619aa</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>marek.admin</sys_updated_by>
+        <sys_updated_on>2019-03-02 23:02:47</sys_updated_on>
+        <value>427709a60a0006bc7d2904e99132532d</value>
+        <variable display_value="">2046cd992f201300a09a839fb18c956d</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>8a61b54cdbc8f3002899d5f0cf96198f</document_key>
+        <order>130</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>marek.admin</sys_created_by>
+        <sys_created_on>2019-03-02 23:02:47</sys_created_on>
+        <sys_id>8a61b54cdbc8f3002899d5f0cf9619ab</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>marek.admin</sys_updated_by>
+        <sys_updated_on>2019-03-02 23:02:47</sys_updated_on>
+        <value>inline_script</value>
+        <variable display_value="">e6f26fba3721030003a08fb77e41f1eb</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>8a61b54cdbc8f3002899d5f0cf96198f</document_key>
+        <order>92</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>marek.admin</sys_created_by>
+        <sys_created_on>2019-03-02 23:02:47</sys_created_on>
+        <sys_id>8e61b54cdbc8f3002899d5f0cf9619aa</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>marek.admin</sys_updated_by>
+        <sys_updated_on>2019-03-02 23:02:47</sys_updated_on>
+        <value>35aa573fd7802200bdbaee5b5e610375</value>
+        <variable display_value="">306d63c25f101300a09a2abd7f466627</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>8a61b54cdbc8f3002899d5f0cf96198f</document_key>
+        <order>20</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>marek.admin</sys_created_by>
+        <sys_created_on>2019-03-02 23:02:47</sys_created_on>
+        <sys_id>c661b54cdbc8f3002899d5f0cf9619ab</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>marek.admin</sys_updated_by>
+        <sys_updated_on>2019-03-02 23:02:47</sys_updated_on>
+        <value>define_connection_inline</value>
+        <variable display_value="">4ecf1b7a3721030003a08fb77e41f149</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>8a61b54cdbc8f3002899d5f0cf96198f</document_key>
+        <order>30</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>marek.admin</sys_created_by>
+        <sys_created_on>2019-03-02 23:02:47</sys_created_on>
+        <sys_id>ca61b54cdbc8f3002899d5f0cf9619aa</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>marek.admin</sys_updated_by>
+        <sys_updated_on>2019-03-02 23:02:47</sys_updated_on>
+        <value>b524d5badbf723002899d5f0cf9619ac</value>
+        <variable display_value="">5c30ab7a3721030003a08fb77e41f12e</variable>
+    </sys_variable_value>
+</record_update>

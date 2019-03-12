@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_hub_flow">
+    <sys_hub_flow action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <active>true</active>
+        <annotation/>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description/>
+        <internal_name>new_p1_incident</internal_name>
+        <label_cache>[{"name":"Created_1.current.short_description","label":"Trigger➛Incident Record➛Short description","reference":"","reference_display":"Short description","type":"string","base_type":"string","parent_table_name":"incident","column_name":"short_description"},{"name":"8783dfbd-5953-417d-b5a8-b9f79dcdd310.task","label":"2➛task","reference":"task","reference_display":"Task","type":"reference","base_type":"reference"},{"name":"Created_1.current","label":"Trigger➛Incident Record","reference":"incident","reference_display":"Incident","type":"reference","base_type":"reference"}]</label_cache>
+        <latest_snapshot>61319d18db0437002899d5f0cf96190c</latest_snapshot>
+        <master_snapshot>d3cea588dbc8f3002899d5f0cf9619fd</master_snapshot>
+        <name>New P1 Incident</name>
+        <outputs/>
+        <remote_trigger_id>63cee588dbc8f3002899d5f0cf96194d</remote_trigger_id>
+        <sc_callable>false</sc_callable>
+        <show_draft_actions>false</show_draft_actions>
+        <show_triggered_flows>false</show_triggered_flows>
+        <status>published</status>
+        <sys_class_name>sys_hub_flow</sys_class_name>
+        <sys_created_by>marek.admin</sys_created_by>
+        <sys_created_on>2019-03-02 21:16:46</sys_created_on>
+        <sys_id>0d29d5c8db88f3002899d5f0cf961910</sys_id>
+        <sys_mod_count>13</sys_mod_count>
+        <sys_name>New P1 Incident</sys_name>
+        <sys_package display_value="Vector" source="x_84446_vector">5fe89588db88f3002899d5f0cf961957</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Vector">5fe89588db88f3002899d5f0cf961957</sys_scope>
+        <sys_update_name>sys_hub_flow_0d29d5c8db88f3002899d5f0cf961910</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2019-03-03 15:20:37</sys_updated_on>
+        <type>flow</type>
+    </sys_hub_flow>
+    <sys_translated_text action="delete_multiple" query="documentkey=0d29d5c8db88f3002899d5f0cf961910"/>
+    <sys_variable_value action="delete_multiple" query="document_key=0d29d5c8db88f3002899d5f0cf961910"/>
+</record_update>

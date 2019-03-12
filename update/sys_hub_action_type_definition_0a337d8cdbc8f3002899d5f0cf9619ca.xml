@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_hub_action_type_definition">
+    <sys_hub_action_type_definition action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <active>true</active>
+        <annotation/>
+        <category display_value="Vector Python Script">c001714cdbc8f3002899d5f0cf9619bb</category>
+        <copied_from>ea11b14cdbc8f3002899d5f0cf9619fc</copied_from>
+        <copied_from_name>Incident assigned</copied_from_name>
+        <description/>
+        <internal_name>sleep_reminder</internal_name>
+        <label_cache>[]</label_cache>
+        <latest_snapshot>457de4dadb0873002899d5f0cf9619be</latest_snapshot>
+        <master_snapshot>ae43bd8cdbc8f3002899d5f0cf9619e4</master_snapshot>
+        <name>Sleep Reminder</name>
+        <outputs/>
+        <state>published</state>
+        <sys_class_name>sys_hub_action_type_definition</sys_class_name>
+        <sys_created_by>marek.admin</sys_created_by>
+        <sys_created_on>2019-03-02 23:10:42</sys_created_on>
+        <sys_id>0a337d8cdbc8f3002899d5f0cf9619ca</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>Sleep Reminder</sys_name>
+        <sys_package display_value="Vector" source="x_84446_vector">5fe89588db88f3002899d5f0cf961957</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Vector">5fe89588db88f3002899d5f0cf961957</sys_scope>
+        <sys_update_name>sys_hub_action_type_definition_0a337d8cdbc8f3002899d5f0cf9619ca</sys_update_name>
+        <sys_updated_by>marek.admin</sys_updated_by>
+        <sys_updated_on>2019-03-09 17:52:14</sys_updated_on>
+        <system_level>false</system_level>
+        <type/>
+    </sys_hub_action_type_definition>
+    <sys_translated_text action="delete_multiple" query="documentkey=0a337d8cdbc8f3002899d5f0cf9619ca"/>
+    <sys_variable_value action="delete_multiple" query="document_key=0a337d8cdbc8f3002899d5f0cf9619ca"/>
+</record_update>
