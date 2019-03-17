@@ -3,6 +3,7 @@
         <element choice="3" default="say" label="Action Type" max_length="40" name="action_type" type="choice">
             <choice>
                 <element inactive_on_update="false" label="Dance" value="dance"/>
+                <element inactive_on_update="false" label="Patrol" value="patrol"/>
                 <element inactive_on_update="false" label="Say" value="say"/>
                 <element inactive_on_update="false" label="Sing" value="sing"/>
             </choice>

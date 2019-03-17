@@ -9,7 +9,7 @@
         <description/>
         <internal_name>messenger_commands</internal_name>
         <label_cache>[{"name":"Created_1.current.action_type","label":"Trigger➛Vector Action Record➛Action Type","reference":"","reference_display":"Action Type","type":"choice","base_type":"choice","parent_table_name":"x_84446_vector_action","column_name":"action_type"},{"name":"Created_1.current.say_text","label":"Trigger➛Vector Action Record➛say text","reference":"","reference_display":"say text","type":"string","base_type":"string","parent_table_name":"x_84446_vector_action","column_name":"say_text"}]</label_cache>
-        <latest_snapshot>96f74013db4c33002899d5f0cf9619ea</latest_snapshot>
+        <latest_snapshot>c35c162cdb9c33002899d5f0cf961941</latest_snapshot>
         <master_snapshot>9913f012db4873002899d5f0cf96198a</master_snapshot>
         <name>Messenger commands</name>
         <outputs/>
@@ -22,14 +22,14 @@
         <sys_created_by>marek.admin</sys_created_by>
         <sys_created_on>2019-03-09 17:55:13</sys_created_on>
         <sys_id>cd2e68dadb0873002899d5f0cf9619d5</sys_id>
-        <sys_mod_count>20</sys_mod_count>
+        <sys_mod_count>24</sys_mod_count>
         <sys_name>Messenger commands</sys_name>
         <sys_package display_value="Vector" source="x_84446_vector">5fe89588db88f3002899d5f0cf961957</sys_package>
         <sys_policy/>
         <sys_scope display_value="Vector">5fe89588db88f3002899d5f0cf961957</sys_scope>
         <sys_update_name>sys_hub_flow_cd2e68dadb0873002899d5f0cf9619d5</sys_update_name>
         <sys_updated_by>system</sys_updated_by>
-        <sys_updated_on>2019-03-12 17:42:25</sys_updated_on>
+        <sys_updated_on>2019-03-17 01:43:08</sys_updated_on>
         <type>flow</type>
     </sys_hub_flow>
     <sys_translated_text action="delete_multiple" query="documentkey=cd2e68dadb0873002899d5f0cf9619d5"/>

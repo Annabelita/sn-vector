@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_hub_action_instance">
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_type display_value="Patrol">05bb1ae8db9c33002899d5f0cf9619b2</action_type>
+        <action_type_parent/>
+        <comment/>
+        <compiled_snapshot display_value="Patrol">05bb1ae8db9c33002899d5f0cf9619b2</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Scheduled Patrol">b9a9c2b0db1873002899d5f0cf961984</flow>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>marek.admin</sys_created_by>
+        <sys_created_on>2019-03-17 19:01:04</sys_created_on>
+        <sys_id>3fe98a34db1873002899d5f0cf961988</sys_id>
+        <sys_mod_count>8</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Vector" source="x_84446_vector">5fe89588db88f3002899d5f0cf961957</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Vector">5fe89588db88f3002899d5f0cf961957</sys_scope>
+        <sys_update_name>sys_hub_action_instance_3fe98a34db1873002899d5f0cf961988</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2019-03-17 19:01:35</sys_updated_on>
+        <ui_id>ccfa01e3-3d48-4a54-9b2f-c244f754c596</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=3fe98a34db1873002899d5f0cf961988"/>
+</record_update>

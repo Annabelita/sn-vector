@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_hub_flow_snapshot">
+    <sys_hub_flow_snapshot action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <active>true</active>
+        <annotation/>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description/>
+        <internal_name>scheduled_patrol</internal_name>
+        <label_cache>[]</label_cache>
+        <master>true</master>
+        <name>Scheduled Patrol</name>
+        <outputs/>
+        <parent_flow display_value="Scheduled Patrol">b9a9c2b0db1873002899d5f0cf961984</parent_flow>
+        <remote_trigger_id/>
+        <sc_callable>false</sc_callable>
+        <status>published</status>
+        <sys_class_name>sys_hub_flow_snapshot</sys_class_name>
+        <sys_created_by>marek.admin</sys_created_by>
+        <sys_created_on>2019-03-17 19:01:22</sys_created_on>
+        <sys_id>8c0aca34db1873002899d5f0cf961963</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Scheduled Patrol</sys_name>
+        <sys_package display_value="Vector" source="x_84446_vector">5fe89588db88f3002899d5f0cf961957</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Vector">5fe89588db88f3002899d5f0cf961957</sys_scope>
+        <sys_update_name>sys_hub_flow_snapshot_8c0aca34db1873002899d5f0cf961963</sys_update_name>
+        <sys_updated_by>marek.admin</sys_updated_by>
+        <sys_updated_on>2019-03-17 19:01:22</sys_updated_on>
+        <type>flow</type>
+    </sys_hub_flow_snapshot>
+    <sys_translated_text action="delete_multiple" query="documentkey=8c0aca34db1873002899d5f0cf961963"/>
+    <sys_variable_value action="delete_multiple" query="document_key=8c0aca34db1873002899d5f0cf961963"/>
+</record_update>

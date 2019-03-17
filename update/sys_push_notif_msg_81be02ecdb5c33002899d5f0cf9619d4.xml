@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_push_notif_msg">
+    <sys_push_notif_msg action="INSERT_OR_UPDATE">
+        <message_string>Vector found an intruder!</message_string>
+        <name>Intruder Message</name>
+        <push_app display_value="ServiceNow Mobile Application">ab704041ff1102009738ffffffffff33</push_app>
+        <push_message_content display_value="Generic Record Payload">4f9c2ec0d72102006b0f8ebc5e610327</push_message_content>
+        <subject/>
+        <sys_class_name>sys_push_notif_msg</sys_class_name>
+        <sys_created_by>marek.admin</sys_created_by>
+        <sys_created_on>2019-03-17 00:44:35</sys_created_on>
+        <sys_id>81be02ecdb5c33002899d5f0cf9619d4</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Intruder Message</sys_name>
+        <sys_package display_value="Vector" source="x_84446_vector">5fe89588db88f3002899d5f0cf961957</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Vector">5fe89588db88f3002899d5f0cf961957</sys_scope>
+        <sys_update_name>sys_push_notif_msg_81be02ecdb5c33002899d5f0cf9619d4</sys_update_name>
+        <sys_updated_by>marek.admin</sys_updated_by>
+        <sys_updated_on>2019-03-17 01:15:39</sys_updated_on>
+        <table>incident</table>
+        <type>push</type>
+    </sys_push_notif_msg>
+</record_update>
